@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B603A6EA16B89DC7006A5DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603A6E916B89DC7006A5DFA /* UIKit.framework */; };
+		B603A6EC16B89DC7006A5DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603A6EB16B89DC7006A5DFA /* Foundation.framework */; };
+		B603A6EE16B89DC7006A5DFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B603A6ED16B89DC7006A5DFA /* CoreGraphics.framework */; };
+		B603A6F416B89DC7006A5DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B603A6F216B89DC7006A5DFA /* InfoPlist.strings */; };
+		B603A6F616B89DC7006A5DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A6F516B89DC7006A5DFA /* main.m */; };
+		B603A6FA16B89DC7006A5DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A6F916B89DC7006A5DFA /* AppDelegate.m */; };
+		B603A6FC16B89DC7006A5DFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A6FB16B89DC7006A5DFA /* Default.png */; };
+		B603A6FE16B89DC7006A5DFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A6FD16B89DC7006A5DFA /* Default@2x.png */; };
+		B603A70016B89DC7006A5DFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A6FF16B89DC7006A5DFA /* Default-568h@2x.png */; };
+		B603A70316B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B603A70116B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard */; };
+		B603A70616B89DC7006A5DFA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B603A70416B89DC7006A5DFA /* MainStoryboard_iPad.storyboard */; };
+		B603A70916B89DC7006A5DFA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A70816B89DC7006A5DFA /* FirstViewController.m */; };
+		B603A70B16B89DC7006A5DFA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A70A16B89DC7006A5DFA /* first.png */; };
+		B603A70D16B89DC7006A5DFA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A70C16B89DC7006A5DFA /* first@2x.png */; };
+		B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A70F16B89DC7006A5DFA /* SecondViewController.m */; };
+		B603A71216B89DC7006A5DFA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second.png */; };
+		B603A71416B89DC7006A5DFA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B603A6E616B89DC7006A5DFA /* FitnessBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B603A6E916B89DC7006A5DFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B603A6EB16B89DC7006A5DFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B603A6ED16B89DC7006A5DFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B603A6F116B89DC7006A5DFA /* FitnessBuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessBuddy-Info.plist"; sourceTree = "<group>"; };
+		B603A6F316B89DC7006A5DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B603A6F516B89DC7006A5DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B603A6F716B89DC7006A5DFA /* FitnessBuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FitnessBuddy-Prefix.pch"; sourceTree = "<group>"; };
+		B603A6F816B89DC7006A5DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B603A6F916B89DC7006A5DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B603A6FB16B89DC7006A5DFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B603A6FD16B89DC7006A5DFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B603A6FF16B89DC7006A5DFA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B603A70216B89DC7006A5DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B603A70516B89DC7006A5DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B603A70716B89DC7006A5DFA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B603A70816B89DC7006A5DFA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B603A70A16B89DC7006A5DFA /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B603A70C16B89DC7006A5DFA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B603A70E16B89DC7006A5DFA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B603A70F16B89DC7006A5DFA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B603A71116B89DC7006A5DFA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B603A71316B89DC7006A5DFA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B603A6E316B89DC7006A5DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B603A6EA16B89DC7006A5DFA /* UIKit.framework in Frameworks */,
+				B603A6EC16B89DC7006A5DFA /* Foundation.framework in Frameworks */,
+				B603A6EE16B89DC7006A5DFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B603A6DD16B89DC7006A5DFA = {
+			isa = PBXGroup;
+			children = (
+				B603A6EF16B89DC7006A5DFA /* FitnessBuddy */,
+				B603A6E816B89DC7006A5DFA /* Frameworks */,
+				B603A6E716B89DC7006A5DFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B603A6E716B89DC7006A5DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B603A6E616B89DC7006A5DFA /* FitnessBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B603A6E816B89DC7006A5DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B603A6E916B89DC7006A5DFA /* UIKit.framework */,
+				B603A6EB16B89DC7006A5DFA /* Foundation.framework */,
+				B603A6ED16B89DC7006A5DFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B603A6EF16B89DC7006A5DFA /* FitnessBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				B603A6F816B89DC7006A5DFA /* AppDelegate.h */,
+				B603A6F916B89DC7006A5DFA /* AppDelegate.m */,
+				B603A70116B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard */,
+				B603A70416B89DC7006A5DFA /* MainStoryboard_iPad.storyboard */,
+				B603A70716B89DC7006A5DFA /* FirstViewController.h */,
+				B603A70816B89DC7006A5DFA /* FirstViewController.m */,
+				B603A70A16B89DC7006A5DFA /* first.png */,
+				B603A70C16B89DC7006A5DFA /* first@2x.png */,
+				B603A70E16B89DC7006A5DFA /* SecondViewController.h */,
+				B603A70F16B89DC7006A5DFA /* SecondViewController.m */,
+				B603A71116B89DC7006A5DFA /* second.png */,
+				B603A71316B89DC7006A5DFA /* second@2x.png */,
+				B603A6F016B89DC7006A5DFA /* Supporting Files */,
+			);
+			path = FitnessBuddy;
+			sourceTree = "<group>";
+		};
+		B603A6F016B89DC7006A5DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B603A6F116B89DC7006A5DFA /* FitnessBuddy-Info.plist */,
+				B603A6F216B89DC7006A5DFA /* InfoPlist.strings */,
+				B603A6F516B89DC7006A5DFA /* main.m */,
+				B603A6F716B89DC7006A5DFA /* FitnessBuddy-Prefix.pch */,
+				B603A6FB16B89DC7006A5DFA /* Default.png */,
+				B603A6FD16B89DC7006A5DFA /* Default@2x.png */,
+				B603A6FF16B89DC7006A5DFA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B603A6E516B89DC7006A5DFA /* FitnessBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B603A71716B89DC7006A5DFA /* Build configuration list for PBXNativeTarget "FitnessBuddy" */;
+			buildPhases = (
+				B603A6E216B89DC7006A5DFA /* Sources */,
+				B603A6E316B89DC7006A5DFA /* Frameworks */,
+				B603A6E416B89DC7006A5DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessBuddy;
+			productName = FitnessBuddy;
+			productReference = B603A6E616B89DC7006A5DFA /* FitnessBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B603A6DE16B89DC7006A5DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Usman Tamanna";
+			};
+			buildConfigurationList = B603A6E116B89DC7006A5DFA /* Build configuration list for PBXProject "FitnessBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B603A6DD16B89DC7006A5DFA;
+			productRefGroup = B603A6E716B89DC7006A5DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B603A6E516B89DC7006A5DFA /* FitnessBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B603A6E416B89DC7006A5DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B603A6F416B89DC7006A5DFA /* InfoPlist.strings in Resources */,
+				B603A6FC16B89DC7006A5DFA /* Default.png in Resources */,
+				B603A6FE16B89DC7006A5DFA /* Default@2x.png in Resources */,
+				B603A70016B89DC7006A5DFA /* Default-568h@2x.png in Resources */,
+				B603A70316B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard in Resources */,
+				B603A70616B89DC7006A5DFA /* MainStoryboard_iPad.storyboard in Resources */,
+				B603A70B16B89DC7006A5DFA /* first.png in Resources */,
+				B603A70D16B89DC7006A5DFA /* first@2x.png in Resources */,
+				B603A71216B89DC7006A5DFA /* second.png in Resources */,
+				B603A71416B89DC7006A5DFA /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B603A6E216B89DC7006A5DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B603A6F616B89DC7006A5DFA /* main.m in Sources */,
+				B603A6FA16B89DC7006A5DFA /* AppDelegate.m in Sources */,
+				B603A70916B89DC7006A5DFA /* FirstViewController.m in Sources */,
+				B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B603A6F216B89DC7006A5DFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B603A6F316B89DC7006A5DFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B603A70116B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B603A70216B89DC7006A5DFA /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B603A70416B89DC7006A5DFA /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B603A70516B89DC7006A5DFA /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B603A71516B89DC7006A5DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B603A71616B89DC7006A5DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B603A71816B89DC7006A5DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitnessBuddy/FitnessBuddy-Prefix.pch";
+				INFOPLIST_FILE = "FitnessBuddy/FitnessBuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B603A71916B89DC7006A5DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FitnessBuddy/FitnessBuddy-Prefix.pch";
+				INFOPLIST_FILE = "FitnessBuddy/FitnessBuddy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B603A6E116B89DC7006A5DFA /* Build configuration list for PBXProject "FitnessBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B603A71516B89DC7006A5DFA /* Debug */,
+				B603A71616B89DC7006A5DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B603A71716B89DC7006A5DFA /* Build configuration list for PBXNativeTarget "FitnessBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B603A71816B89DC7006A5DFA /* Debug */,
+				B603A71916B89DC7006A5DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B603A6DE16B89DC7006A5DFA /* Project object */;
+}
