@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="221" y="-534"/>
+            <point key="canvasLocation" x="-507" y="-182"/>
         </scene>
         <!--Third View Controller - Third-->
         <scene sceneID="t4M-iH-3Em">
@@ -72,7 +72,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QSd-0c-Tk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="221" y="881"/>
+            <point key="canvasLocation" x="-507" y="1233"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="13">
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="221" y="160"/>
+            <point key="canvasLocation" x="-507" y="512"/>
         </scene>
         <!--Tab Bar Controller - Initial Screen-->
         <scene sceneID="15">
@@ -130,7 +130,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-642" y="160"/>
+            <point key="canvasLocation" x="-1370" y="512"/>
         </scene>
     </scenes>
     <resources>
