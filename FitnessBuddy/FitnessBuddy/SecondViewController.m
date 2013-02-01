@@ -14,16 +14,33 @@
 
 @implementation SecondViewController
 
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        locationManager = [[CLLocationManager alloc]init];
+        [locationManager setDelegate:self];
+        [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [worldView setShowsUserLocation:YES];
 }
 
-- (void)didReceiveMemoryWarning
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"%@", locations);
+}
+
+-(void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    NSLog(@"could not find location: %@", error);
 }
 
 @end

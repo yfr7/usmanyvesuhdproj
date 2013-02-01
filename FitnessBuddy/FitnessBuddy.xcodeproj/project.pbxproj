@@ -22,10 +22,12 @@
 		B603A70B16B89DC7006A5DFA /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A70A16B89DC7006A5DFA /* first.png */; };
 		B603A70D16B89DC7006A5DFA /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A70C16B89DC7006A5DFA /* first@2x.png */; };
 		B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A70F16B89DC7006A5DFA /* SecondViewController.m */; };
-		B603A71216B89DC7006A5DFA /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second.png */; };
-		B603A71416B89DC7006A5DFA /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second@2x.png */; };
-		F2195B6616B95F1300EF6309 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* calendar.png */; };
+		B603A71216B89DC7006A5DFA /* second1.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second1.png */; };
+		B603A71416B89DC7006A5DFA /* second2.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second2.png */; };
+		F2195B6616B95F1300EF6309 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* second@2x.png */; };
 		F2195B6916B9604B00EF6309 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* Run.m */; };
+		F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8416BB3C7100EF6309 /* CoreLocation.framework */; };
+		F2195B8716BB3C7C00EF6309 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8616BB3C7C00EF6309 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,11 +52,13 @@
 		B603A70C16B89DC7006A5DFA /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		B603A70E16B89DC7006A5DFA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B603A70F16B89DC7006A5DFA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B603A71116B89DC7006A5DFA /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B603A71316B89DC7006A5DFA /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		F2195B6516B95F1300EF6309 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		B603A71116B89DC7006A5DFA /* second1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second1.png; sourceTree = "<group>"; };
+		B603A71316B89DC7006A5DFA /* second2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second2.png; sourceTree = "<group>"; };
+		F2195B6516B95F1300EF6309 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F2195B6716B9604B00EF6309 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 		F2195B6816B9604B00EF6309 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		F2195B8416BB3C7100EF6309 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F2195B8616BB3C7C00EF6309 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2195B8716BB3C7C00EF6309 /* MapKit.framework in Frameworks */,
+				F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */,
 				B603A6EA16B89DC7006A5DFA /* UIKit.framework in Frameworks */,
 				B603A6EC16B89DC7006A5DFA /* Foundation.framework in Frameworks */,
 				B603A6EE16B89DC7006A5DFA /* CoreGraphics.framework in Frameworks */,
@@ -74,6 +80,8 @@
 		B603A6DD16B89DC7006A5DFA = {
 			isa = PBXGroup;
 			children = (
+				F2195B8616BB3C7C00EF6309 /* MapKit.framework */,
+				F2195B8416BB3C7100EF6309 /* CoreLocation.framework */,
 				B603A6EF16B89DC7006A5DFA /* FitnessBuddy */,
 				B603A6E816B89DC7006A5DFA /* Frameworks */,
 				B603A6E716B89DC7006A5DFA /* Products */,
@@ -113,9 +121,9 @@
 				F2195B6816B9604B00EF6309 /* Run.m */,
 				B603A70A16B89DC7006A5DFA /* first.png */,
 				B603A70C16B89DC7006A5DFA /* first@2x.png */,
-				F2195B6516B95F1300EF6309 /* calendar.png */,
-				B603A71116B89DC7006A5DFA /* second.png */,
-				B603A71316B89DC7006A5DFA /* second@2x.png */,
+				F2195B6516B95F1300EF6309 /* second@2x.png */,
+				B603A71116B89DC7006A5DFA /* second1.png */,
+				B603A71316B89DC7006A5DFA /* second2.png */,
 				B603A6F016B89DC7006A5DFA /* Supporting Files */,
 			);
 			path = FitnessBuddy;
@@ -194,9 +202,9 @@
 				B603A70616B89DC7006A5DFA /* MainStoryboard_iPad.storyboard in Resources */,
 				B603A70B16B89DC7006A5DFA /* first.png in Resources */,
 				B603A70D16B89DC7006A5DFA /* first@2x.png in Resources */,
-				B603A71216B89DC7006A5DFA /* second.png in Resources */,
-				B603A71416B89DC7006A5DFA /* second@2x.png in Resources */,
-				F2195B6616B95F1300EF6309 /* calendar.png in Resources */,
+				B603A71216B89DC7006A5DFA /* second1.png in Resources */,
+				B603A71416B89DC7006A5DFA /* second2.png in Resources */,
+				F2195B6616B95F1300EF6309 /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
