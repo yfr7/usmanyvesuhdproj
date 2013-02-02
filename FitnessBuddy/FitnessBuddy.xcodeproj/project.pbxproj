@@ -24,6 +24,9 @@
 		B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A70F16B89DC7006A5DFA /* SecondViewController.m */; };
 		B603A71216B89DC7006A5DFA /* second1.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second1.png */; };
 		B603A71416B89DC7006A5DFA /* second2.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second2.png */; };
+		B683D6FB16BD08A70046DC26 /* black_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B683D6F816BD08A70046DC26 /* black_background.png */; };
+		B683D6FC16BD08A70046DC26 /* blue_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B683D6F916BD08A70046DC26 /* blue_background.jpg */; };
+		B683D6FD16BD08A70046DC26 /* blue_stripes.png in Resources */ = {isa = PBXBuildFile; fileRef = B683D6FA16BD08A70046DC26 /* blue_stripes.png */; };
 		F2195B6616B95F1300EF6309 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* second@2x.png */; };
 		F2195B6916B9604B00EF6309 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* Run.m */; };
 		F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8416BB3C7100EF6309 /* CoreLocation.framework */; };
@@ -54,6 +57,9 @@
 		B603A70F16B89DC7006A5DFA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B603A71116B89DC7006A5DFA /* second1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second1.png; sourceTree = "<group>"; };
 		B603A71316B89DC7006A5DFA /* second2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second2.png; sourceTree = "<group>"; };
+		B683D6F816BD08A70046DC26 /* black_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_background.png; path = Images/black_background.png; sourceTree = "<group>"; };
+		B683D6F916BD08A70046DC26 /* blue_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue_background.jpg; path = Images/blue_background.jpg; sourceTree = "<group>"; };
+		B683D6FA16BD08A70046DC26 /* blue_stripes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_stripes.png; path = Images/blue_stripes.png; sourceTree = "<group>"; };
 		F2195B6516B95F1300EF6309 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F2195B6716B9604B00EF6309 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 		F2195B6816B9604B00EF6309 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 		B603A6DD16B89DC7006A5DFA = {
 			isa = PBXGroup;
 			children = (
+				B683D6F716BD08730046DC26 /* Images */,
 				F2195B8616BB3C7C00EF6309 /* MapKit.framework */,
 				F2195B8416BB3C7100EF6309 /* CoreLocation.framework */,
 				B603A6EF16B89DC7006A5DFA /* FitnessBuddy */,
@@ -141,6 +148,16 @@
 				B603A6FF16B89DC7006A5DFA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B683D6F716BD08730046DC26 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B683D6F816BD08A70046DC26 /* black_background.png */,
+				B683D6F916BD08A70046DC26 /* blue_background.jpg */,
+				B683D6FA16BD08A70046DC26 /* blue_stripes.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +222,9 @@
 				B603A71216B89DC7006A5DFA /* second1.png in Resources */,
 				B603A71416B89DC7006A5DFA /* second2.png in Resources */,
 				F2195B6616B95F1300EF6309 /* second@2x.png in Resources */,
+				B683D6FB16BD08A70046DC26 /* black_background.png in Resources */,
+				B683D6FC16BD08A70046DC26 /* blue_background.jpg in Resources */,
+				B683D6FD16BD08A70046DC26 /* blue_stripes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
