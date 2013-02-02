@@ -27,6 +27,8 @@
 		B683D6FB16BD08A70046DC26 /* black_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B683D6F816BD08A70046DC26 /* black_background.png */; };
 		B683D6FC16BD08A70046DC26 /* blue_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B683D6F916BD08A70046DC26 /* blue_background.jpg */; };
 		B683D6FD16BD08A70046DC26 /* blue_stripes.png in Resources */ = {isa = PBXBuildFile; fileRef = B683D6FA16BD08A70046DC26 /* blue_stripes.png */; };
+		B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */; };
+		B683D75416BD1FD50046DC26 /* EffectsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B683D75316BD1FD50046DC26 /* EffectsFile.m */; };
 		F2195B6616B95F1300EF6309 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* second@2x.png */; };
 		F2195B6916B9604B00EF6309 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* Run.m */; };
 		F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8416BB3C7100EF6309 /* CoreLocation.framework */; };
@@ -60,6 +62,10 @@
 		B683D6F816BD08A70046DC26 /* black_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_background.png; path = Images/black_background.png; sourceTree = "<group>"; };
 		B683D6F916BD08A70046DC26 /* blue_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = blue_background.jpg; path = Images/blue_background.jpg; sourceTree = "<group>"; };
 		B683D6FA16BD08A70046DC26 /* blue_stripes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue_stripes.png; path = Images/blue_stripes.png; sourceTree = "<group>"; };
+		B683D6FE16BD0A770046DC26 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		B683D75216BD1FD50046DC26 /* EffectsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EffectsFile.h; path = ../EffectsFile.h; sourceTree = "<group>"; };
+		B683D75316BD1FD50046DC26 /* EffectsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EffectsFile.m; path = ../EffectsFile.m; sourceTree = "<group>"; };
 		F2195B6516B95F1300EF6309 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F2195B6716B9604B00EF6309 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
 		F2195B6816B9604B00EF6309 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 				B603A6F916B89DC7006A5DFA /* AppDelegate.m */,
 				B603A70116B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard */,
 				B603A70416B89DC7006A5DFA /* MainStoryboard_iPad.storyboard */,
+				B683D75216BD1FD50046DC26 /* EffectsFile.h */,
+				B683D75316BD1FD50046DC26 /* EffectsFile.m */,
 				B603A70716B89DC7006A5DFA /* FirstViewController.h */,
 				B603A70816B89DC7006A5DFA /* FirstViewController.m */,
 				B603A70E16B89DC7006A5DFA /* SecondViewController.h */,
@@ -131,6 +139,8 @@
 				F2195B6516B95F1300EF6309 /* second@2x.png */,
 				B603A71116B89DC7006A5DFA /* second1.png */,
 				B603A71316B89DC7006A5DFA /* second2.png */,
+				B683D6FE16BD0A770046DC26 /* UserInfoViewController.h */,
+				B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */,
 				B603A6F016B89DC7006A5DFA /* Supporting Files */,
 			);
 			path = FitnessBuddy;
@@ -240,6 +250,8 @@
 				B603A70916B89DC7006A5DFA /* FirstViewController.m in Sources */,
 				B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */,
 				F2195B6916B9604B00EF6309 /* Run.m in Sources */,
+				B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */,
+				B683D75416BD1FD50046DC26 /* EffectsFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
