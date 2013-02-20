@@ -15,6 +15,8 @@
 {
     EffectsFile *effects;
 }
+
+
 @property (weak, nonatomic) IBOutlet UIImageView *ivUserInfo;
 @property (weak, nonatomic) IBOutlet UILabel *lblUserInfoTitle;
 @property (weak, nonatomic) IBOutlet UIImageView *ivUserInfoInner;

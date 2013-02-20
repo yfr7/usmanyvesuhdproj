@@ -54,6 +54,10 @@
     self.ivUserInfoInner.layer.shadowColor = [UIColor whiteColor].CGColor;
     self.ivUserInfoInner.layer.shadowOpacity = 1.0f;
     self.ivUserInfoInner.clipsToBounds = NO;
+    
+    // Changing toolbar background
+//    UIImage *image = [UIImage imageNamed:@"blue_nav_bar"];
+//    [[UIToolbar appearance] setBackgroundImage:image forToolbarPosition:UIToolbarPositionAny barMetrics:UIBarMetricsDefault];
 }
 
 - (void)didReceiveMemoryWarning
