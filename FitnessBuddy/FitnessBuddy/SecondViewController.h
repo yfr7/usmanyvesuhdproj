@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
+#import "EffectsFile.h"
 
 @interface SecondViewController : UIViewController <CLLocationManagerDelegate>
 {
@@ -18,4 +19,5 @@
     IBOutlet UIActivityIndicatorView *activityIndicator;
     IBOutlet UITextField *locationTitleField;
 }
+@property (weak, nonatomic) IBOutlet UIToolbar *second_view_toolbar;
 @end

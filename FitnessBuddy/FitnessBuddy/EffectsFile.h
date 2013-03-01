@@ -13,6 +13,6 @@
 @interface EffectsFile : UIViewController
 
 - (void) addShadowtoLabel:(UILabel*) someLabel;
-
+- (void) addShadowtoToolbar:(UIToolbar *)someToolbar;
 
 @end

@@ -29,7 +29,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    EffectsFile *effects = [[EffectsFile alloc] init];
+    self.view.backgroundColor = [UIColor colorWithRed:0.902 green:0.902 blue:0.863 alpha:1];
+    [effects addShadowtoToolbar:self.second_view_toolbar];
+    
+    
     [worldView setShowsUserLocation:YES];
 }
 

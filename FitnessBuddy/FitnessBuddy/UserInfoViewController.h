@@ -12,18 +12,14 @@
 #import "EffectsFile.h"
 
 @interface UserInfoViewController : UIViewController
-{
-    EffectsFile *effects;
-}
 
 
+
+@property (weak, nonatomic) IBOutlet UIToolbar *user_info_toolbar;
 @property (weak, nonatomic) IBOutlet UIImageView *ivUserInfo;
 @property (weak, nonatomic) IBOutlet UILabel *lblUserInfoTitle;
 @property (weak, nonatomic) IBOutlet UIImageView *ivUserInfoInner;
-@property (weak, nonatomic) IBOutlet UILabel *lblUserHeightIN;
-@property (weak, nonatomic) IBOutlet UILabel *lblUserHeightFT;
-@property (weak, nonatomic) IBOutlet UILabel *lblUserWeight;
-@property (weak, nonatomic) IBOutlet UILabel *lblUserAge;
-@property (weak, nonatomic) IBOutlet UILabel *lblUserName;
+
+
 
 @end

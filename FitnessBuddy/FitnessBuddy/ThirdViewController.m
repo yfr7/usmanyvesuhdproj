@@ -1,18 +1,18 @@
 //
-//  UserInfoViewController.m
+//  ThirdViewController.m
 //  FitnessBuddy
 //
-//  Created by Usman Tamanna on 2/2/13.
+//  Created by Usman Tamanna on 2/21/13.
 //  Copyright (c) 2013 Usman Tamanna. All rights reserved.
 //
 
-#import "UserInfoViewController.h"
+#import "ThirdViewController.h"
 
-@interface UserInfoViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation UserInfoViewController
+@implementation ThirdViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,12 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    EffectsFile *effects = [[EffectsFile alloc ] init];
     
+    EffectsFile *effects = [[EffectsFile alloc] init];
     self.view.backgroundColor = [UIColor colorWithRed:0.902 green:0.902 blue:0.863 alpha:1];
-    [effects addShadowtoToolbar:self.user_info_toolbar];
-
+    [effects addShadowtoToolbar:self.third_view_toolbar];
 }
 
 - (void)didReceiveMemoryWarning
