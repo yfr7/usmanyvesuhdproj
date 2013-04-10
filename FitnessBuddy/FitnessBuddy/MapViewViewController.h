@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "CalculationViewController.h"
 
-@interface MapViewViewController : UIViewController
+@interface MapViewViewController : UIViewController <CLLocationManagerDelegate>
+{
+    CLLocationManager *locationManager;
+    
+}
+@property (strong, nonatomic) IBOutlet UIView *calcualtionView;
+
 
 @end

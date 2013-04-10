@@ -24,6 +24,8 @@
 		B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B603A70F16B89DC7006A5DFA /* SecondViewController.m */; };
 		B603A71216B89DC7006A5DFA /* second1.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second1.png */; };
 		B603A71416B89DC7006A5DFA /* second2.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second2.png */; };
+		B60DDA201714BCB900CD3EC6 /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */; };
+		B66244F5170B89710032C430 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66244F4170B89710032C430 /* MapViewViewController.m */; };
 		B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */; };
 		B6720F0616E07F9500F9566C /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = B6720EEC16E07F9500F9566C /* 11-clock.png */; };
 		B6720F0716E07F9500F9566C /* 11-clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6720EED16E07F9500F9566C /* 11-clock@2x.png */; };
@@ -83,6 +85,10 @@
 		B603A70F16B89DC7006A5DFA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B603A71116B89DC7006A5DFA /* second1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second1.png; sourceTree = "<group>"; };
 		B603A71316B89DC7006A5DFA /* second2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second2.png; sourceTree = "<group>"; };
+		B60DDA1E1714BCB900CD3EC6 /* CalculationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
+		B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		B66244F3170B89710032C430 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
+		B66244F4170B89710032C430 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
 		B66628BB16D6AEE5009BFE91 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		B6720EEC16E07F9500F9566C /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11-clock.png"; path = "Images/11-clock.png"; sourceTree = "<group>"; };
@@ -179,10 +185,14 @@
 				B603A70416B89DC7006A5DFA /* MainStoryboard_iPad.storyboard */,
 				B603A70716B89DC7006A5DFA /* FirstViewController.h */,
 				B603A70816B89DC7006A5DFA /* FirstViewController.m */,
+				B66244F3170B89710032C430 /* MapViewViewController.h */,
+				B66244F4170B89710032C430 /* MapViewViewController.m */,
 				B603A70E16B89DC7006A5DFA /* SecondViewController.h */,
 				B603A70F16B89DC7006A5DFA /* SecondViewController.m */,
 				B66628BB16D6AEE5009BFE91 /* ThirdViewController.h */,
 				B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */,
+				B60DDA1E1714BCB900CD3EC6 /* CalculationViewController.h */,
+				B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */,
 				F2195B6716B9604B00EF6309 /* Run.h */,
 				F2195B6816B9604B00EF6309 /* Run.m */,
 				B603A70A16B89DC7006A5DFA /* first.png */,
@@ -350,6 +360,8 @@
 				B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */,
 				B6949D4516BE515C00320C3F /* EffectsFile.m in Sources */,
 				B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */,
+				B66244F5170B89710032C430 /* MapViewViewController.m in Sources */,
+				B60DDA201714BCB900CD3EC6 /* CalculationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

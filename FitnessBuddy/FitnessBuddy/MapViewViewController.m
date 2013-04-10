@@ -18,7 +18,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        locationManager = [[CLLocationManager alloc] init];
+        [locationManager setDelegate:self];
+        [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+        [locationManager startUpdatingLocation];
     }
     return self;
 }
@@ -26,8 +29,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    // Add Calculations View Controller
+    
+
 }
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    CalculationViewController *calculationController = [self.storyboard instantiateViewControllerWithIdentifier:@"Calculate"];
+    [self addChildViewController:calculationController];
+    calculationController.view.frame = self.calcualtionView.bounds;
+    
+    [self.calcualtionView addSubview:calculationController.view];
+    [calculationController didMoveToParentViewController:self];
+}
+
+
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+{
+    NSLog(@"New Location Found!");
+}
+
 
 - (void)didReceiveMemoryWarning
 {
