@@ -81,7 +81,6 @@
                             <constraint firstItem="VXS-6a-Owg" firstAttribute="top" secondItem="16" secondAttribute="top" constant="57" id="Fsx-Hx-bDP"/>
                             <constraint firstItem="ldY-Dx-PF9" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="IMJ-CJ-J5p"/>
                             <constraint firstAttribute="bottom" secondItem="An0-hu-QzM" secondAttribute="bottom" constant="64" id="IhF-t9-Rdn"/>
-                            <constraint firstItem="IFu-wb-maY" firstAttribute="top" secondItem="RE6-g7-UXX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Nu7-3v-HAZ"/>
                             <constraint firstItem="OcK-19-5cv" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="QN6-Bh-pZV"/>
                             <constraint firstAttribute="trailing" secondItem="IFu-wb-maY" secondAttribute="trailing" constant="73" id="UPC-XC-xa9"/>
                             <constraint firstItem="VXS-6a-Owg" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="88" id="X8Q-Sv-2bz"/>
@@ -853,52 +852,6 @@
         <image name="tab_bar_home.png" width="22" height="22"/>
         <image name="user.png" width="24" height="21"/>
     </resources>
-    <classes>
-        <class className="CalculationViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CalculationViewController.h"/>
-        </class>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="first_view_content_area" candidateClass="UIView"/>
-                <relationship kind="outlet" name="first_view_nav_bar" candidateClass="UIToolbar"/>
-            </relationships>
-        </class>
-        <class className="MapViewViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="calcualtionView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
-                <relationship kind="outlet" name="locationTitleField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="second_view_toolbar" candidateClass="UIToolbar"/>
-                <relationship kind="outlet" name="worldView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="ThirdViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="third_view_background" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="third_view_toolbar" candidateClass="UIToolbar"/>
-            </relationships>
-        </class>
-        <class className="UserInfoViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UserInfoViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="ivUserInfo" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="ivUserInfoInner" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="lblUserInfoTitle" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="user_info_toolbar" candidateClass="UIToolbar"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

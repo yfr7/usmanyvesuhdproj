@@ -25,6 +25,10 @@
 		B603A71216B89DC7006A5DFA /* second1.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71116B89DC7006A5DFA /* second1.png */; };
 		B603A71416B89DC7006A5DFA /* second2.png in Resources */ = {isa = PBXBuildFile; fileRef = B603A71316B89DC7006A5DFA /* second2.png */; };
 		B60DDA201714BCB900CD3EC6 /* CalculationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */; };
+		B61D39F21716A116006F8D5D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61D39F11716A116006F8D5D /* CoreData.framework */; };
+		B61D39F51716A15B006F8D5D /* FitnessBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B61D39F31716A15B006F8D5D /* FitnessBuddy.xcdatamodeld */; };
+		B61D39F91716A91B006F8D5D /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D39F81716A91B006F8D5D /* Run.m */; };
+		B61D39FC1716A93A006F8D5D /* Runs.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D39FB1716A93A006F8D5D /* Runs.m */; };
 		B66244F5170B89710032C430 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66244F4170B89710032C430 /* MapViewViewController.m */; };
 		B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */; };
 		B6720F0616E07F9500F9566C /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = B6720EEC16E07F9500F9566C /* 11-clock.png */; };
@@ -87,6 +91,12 @@
 		B603A71316B89DC7006A5DFA /* second2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second2.png; sourceTree = "<group>"; };
 		B60DDA1E1714BCB900CD3EC6 /* CalculationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationViewController.h; sourceTree = "<group>"; };
 		B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationViewController.m; sourceTree = "<group>"; };
+		B61D39F11716A116006F8D5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B61D39F41716A15B006F8D5D /* FitnessBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessBuddy.xcdatamodel; sourceTree = "<group>"; };
+		B61D39F71716A91B006F8D5D /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Run.h; path = DatbaseFiles/Run.h; sourceTree = "<group>"; };
+		B61D39F81716A91B006F8D5D /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Run.m; path = DatbaseFiles/Run.m; sourceTree = "<group>"; };
+		B61D39FA1716A93A006F8D5D /* Runs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Runs.h; path = DatbaseFiles/Runs.h; sourceTree = "<group>"; };
+		B61D39FB1716A93A006F8D5D /* Runs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Runs.m; path = DatbaseFiles/Runs.m; sourceTree = "<group>"; };
 		B66244F3170B89710032C430 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
 		B66244F4170B89710032C430 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
 		B66628BB16D6AEE5009BFE91 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
@@ -133,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61D39F21716A116006F8D5D /* CoreData.framework in Frameworks */,
 				F2195B8716BB3C7C00EF6309 /* MapKit.framework in Frameworks */,
 				F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */,
 				B603A6EA16B89DC7006A5DFA /* UIKit.framework in Frameworks */,
@@ -147,6 +158,8 @@
 		B603A6DD16B89DC7006A5DFA = {
 			isa = PBXGroup;
 			children = (
+				B61D39F61716A8E4006F8D5D /* Database Files */,
+				B61D39F11716A116006F8D5D /* CoreData.framework */,
 				B683D6F716BD08730046DC26 /* Images */,
 				B603A6EF16B89DC7006A5DFA /* FitnessBuddy */,
 				B603A6E816B89DC7006A5DFA /* Frameworks */,
@@ -219,6 +232,18 @@
 				B603A6FF16B89DC7006A5DFA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B61D39F61716A8E4006F8D5D /* Database Files */ = {
+			isa = PBXGroup;
+			children = (
+				B61D39F31716A15B006F8D5D /* FitnessBuddy.xcdatamodeld */,
+				B61D39FA1716A93A006F8D5D /* Runs.h */,
+				B61D39FB1716A93A006F8D5D /* Runs.m */,
+				B61D39F71716A91B006F8D5D /* Run.h */,
+				B61D39F81716A91B006F8D5D /* Run.m */,
+			);
+			name = "Database Files";
 			sourceTree = "<group>";
 		};
 		B683D6F716BD08730046DC26 /* Images */ = {
@@ -362,6 +387,9 @@
 				B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */,
 				B66244F5170B89710032C430 /* MapViewViewController.m in Sources */,
 				B60DDA201714BCB900CD3EC6 /* CalculationViewController.m in Sources */,
+				B61D39F51716A15B006F8D5D /* FitnessBuddy.xcdatamodeld in Sources */,
+				B61D39F91716A91B006F8D5D /* Run.m in Sources */,
+				B61D39FC1716A93A006F8D5D /* Runs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +525,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B61D39F31716A15B006F8D5D /* FitnessBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B61D39F41716A15B006F8D5D /* FitnessBuddy.xcdatamodel */,
+			);
+			currentVersion = B61D39F41716A15B006F8D5D /* FitnessBuddy.xcdatamodel */;
+			path = FitnessBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B603A6DE16B89DC7006A5DFA /* Project object */;
 }
