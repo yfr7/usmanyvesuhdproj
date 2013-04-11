@@ -60,7 +60,7 @@
 		B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */; };
 		B6949D4516BE515C00320C3F /* EffectsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B6949D4416BE515C00320C3F /* EffectsFile.m */; };
 		F2195B6616B95F1300EF6309 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* second@2x.png */; };
-		F2195B6916B9604B00EF6309 /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* Run.m */; };
+		F2195B6916B9604B00EF6309 /* RunCHANGED.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* RunCHANGED.m */; };
 		F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8416BB3C7100EF6309 /* CoreLocation.framework */; };
 		F2195B8716BB3C7C00EF6309 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8616BB3C7C00EF6309 /* MapKit.framework */; };
 /* End PBXBuildFile section */
@@ -132,8 +132,8 @@
 		B6949D4316BE515C00320C3F /* EffectsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsFile.h; sourceTree = "<group>"; };
 		B6949D4416BE515C00320C3F /* EffectsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsFile.m; sourceTree = "<group>"; };
 		F2195B6516B95F1300EF6309 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		F2195B6716B9604B00EF6309 /* Run.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Run.h; sourceTree = "<group>"; };
-		F2195B6816B9604B00EF6309 /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Run.m; sourceTree = "<group>"; };
+		F2195B6716B9604B00EF6309 /* RunCHANGED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCHANGED.h; sourceTree = "<group>"; };
+		F2195B6816B9604B00EF6309 /* RunCHANGED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCHANGED.m; sourceTree = "<group>"; };
 		F2195B8416BB3C7100EF6309 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F2195B8616BB3C7C00EF6309 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -206,8 +206,8 @@
 				B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */,
 				B60DDA1E1714BCB900CD3EC6 /* CalculationViewController.h */,
 				B60DDA1F1714BCB900CD3EC6 /* CalculationViewController.m */,
-				F2195B6716B9604B00EF6309 /* Run.h */,
-				F2195B6816B9604B00EF6309 /* Run.m */,
+				F2195B6716B9604B00EF6309 /* RunCHANGED.h */,
+				F2195B6816B9604B00EF6309 /* RunCHANGED.m */,
 				B603A70A16B89DC7006A5DFA /* first.png */,
 				B603A70C16B89DC7006A5DFA /* first@2x.png */,
 				F2195B6516B95F1300EF6309 /* second@2x.png */,
@@ -381,7 +381,7 @@
 				B603A6FA16B89DC7006A5DFA /* AppDelegate.m in Sources */,
 				B603A70916B89DC7006A5DFA /* FirstViewController.m in Sources */,
 				B603A71016B89DC7006A5DFA /* SecondViewController.m in Sources */,
-				F2195B6916B9604B00EF6309 /* Run.m in Sources */,
+				F2195B6916B9604B00EF6309 /* RunCHANGED.m in Sources */,
 				B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */,
 				B6949D4516BE515C00320C3F /* EffectsFile.m in Sources */,
 				B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */,
