@@ -8,7 +8,7 @@
 
 #import "FirstViewController.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import "RunsDataHelper.h"
 
 @interface FirstViewController ()
 
@@ -19,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    RunsDataHelper *helper = [[RunsDataHelper helper] init];
     EffectsFile *effects = [[EffectsFile alloc] init];
     
     self.view.backgroundColor = [UIColor colorWithRed:0.902 green:0.902 blue:0.863 alpha:1];

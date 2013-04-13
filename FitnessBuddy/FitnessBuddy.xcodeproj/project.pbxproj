@@ -59,6 +59,46 @@
 		B6720F1F16E07F9500F9566C /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6720F0516E07F9500F9566C /* user@2x.png */; };
 		B683D70016BD0A770046DC26 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */; };
 		B6949D4516BE515C00320C3F /* EffectsFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B6949D4416BE515C00320C3F /* EffectsFile.m */; };
+		B69B9946171747E8009A8EA7 /* RunsDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B69B9945171747E8009A8EA7 /* RunsDataHelper.m */; };
+		B6EE056F1718CA9A003300AF /* GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE056E1718CA9A003300AF /* GradientButton.m */; };
+		B6EE05711718F023003300AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EE05701718F023003300AF /* QuartzCore.framework */; };
+		B6EE06651718FD1C003300AF /* ColoredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE06381718FD1C003300AF /* ColoredButton.m */; };
+		B6EE06661718FD1C003300AF /* ColoredButtonBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE063A1718FD1C003300AF /* ColoredButtonBlack.m */; };
+		B6EE06671718FD1C003300AF /* ColoredButtonBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE063C1718FD1C003300AF /* ColoredButtonBlue.m */; };
+		B6EE06681718FD1C003300AF /* ColoredButtonGreen.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE063E1718FD1C003300AF /* ColoredButtonGreen.m */; };
+		B6EE06691718FD1C003300AF /* ColoredButtonGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE06401718FD1C003300AF /* ColoredButtonGrey.m */; };
+		B6EE066A1718FD1C003300AF /* ColoredButtonOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE06421718FD1C003300AF /* ColoredButtonOrange.m */; };
+		B6EE066B1718FD1C003300AF /* ColoredButtonTan.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE06441718FD1C003300AF /* ColoredButtonTan.m */; };
+		B6EE066C1718FD1C003300AF /* ColoredButtonWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE06461718FD1C003300AF /* ColoredButtonWhite.m */; };
+		B6EE066D1718FD1C003300AF /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06481718FD1C003300AF /* blackButton.png */; };
+		B6EE066E1718FD1C003300AF /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06491718FD1C003300AF /* blackButton@2x.png */; };
+		B6EE066F1718FD1C003300AF /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064A1718FD1C003300AF /* blackButtonHighlight.png */; };
+		B6EE06701718FD1C003300AF /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064B1718FD1C003300AF /* blackButtonHighlight@2x.png */; };
+		B6EE06711718FD1C003300AF /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064C1718FD1C003300AF /* blueButton.png */; };
+		B6EE06721718FD1C003300AF /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064D1718FD1C003300AF /* blueButton@2x.png */; };
+		B6EE06731718FD1C003300AF /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064E1718FD1C003300AF /* blueButtonHighlight.png */; };
+		B6EE06741718FD1C003300AF /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE064F1718FD1C003300AF /* blueButtonHighlight@2x.png */; };
+		B6EE06751718FD1C003300AF /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06501718FD1C003300AF /* greenButton.png */; };
+		B6EE06761718FD1C003300AF /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06511718FD1C003300AF /* greenButton@2x.png */; };
+		B6EE06771718FD1C003300AF /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06521718FD1C003300AF /* greenButtonHighlight.png */; };
+		B6EE06781718FD1C003300AF /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06531718FD1C003300AF /* greenButtonHighlight@2x.png */; };
+		B6EE06791718FD1C003300AF /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06541718FD1C003300AF /* greyButton.png */; };
+		B6EE067A1718FD1C003300AF /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06551718FD1C003300AF /* greyButton@2x.png */; };
+		B6EE067B1718FD1C003300AF /* greyButton@2xpng in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06561718FD1C003300AF /* greyButton@2xpng */; };
+		B6EE067C1718FD1C003300AF /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06571718FD1C003300AF /* greyButtonHighlight.png */; };
+		B6EE067D1718FD1C003300AF /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06581718FD1C003300AF /* greyButtonHighlight@2x.png */; };
+		B6EE067E1718FD1C003300AF /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06591718FD1C003300AF /* orangeButton.png */; };
+		B6EE067F1718FD1C003300AF /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065A1718FD1C003300AF /* orangeButton@2x.png */; };
+		B6EE06801718FD1C003300AF /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065B1718FD1C003300AF /* orangeButtonHighlight.png */; };
+		B6EE06811718FD1C003300AF /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065C1718FD1C003300AF /* orangeButtonHighlight@2x.png */; };
+		B6EE06821718FD1C003300AF /* tanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065D1718FD1C003300AF /* tanButton.png */; };
+		B6EE06831718FD1C003300AF /* tanButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065E1718FD1C003300AF /* tanButton@2x.png */; };
+		B6EE06841718FD1C003300AF /* tanButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE065F1718FD1C003300AF /* tanButtonHighlight.png */; };
+		B6EE06851718FD1C003300AF /* tanButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06601718FD1C003300AF /* tanButtonHighlight@2x.png */; };
+		B6EE06861718FD1C003300AF /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06611718FD1C003300AF /* whiteButton.png */; };
+		B6EE06871718FD1C003300AF /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06621718FD1C003300AF /* whiteButton@2x.png */; };
+		B6EE06881718FD1C003300AF /* whiteButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06631718FD1C003300AF /* whiteButtonHighlight.png */; };
+		B6EE06891718FD1C003300AF /* whiteButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE06641718FD1C003300AF /* whiteButtonHighlight@2x.png */; };
 		F2195B6616B95F1300EF6309 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2195B6516B95F1300EF6309 /* second@2x.png */; };
 		F2195B6916B9604B00EF6309 /* RunCHANGED.m in Sources */ = {isa = PBXBuildFile; fileRef = F2195B6816B9604B00EF6309 /* RunCHANGED.m */; };
 		F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2195B8416BB3C7100EF6309 /* CoreLocation.framework */; };
@@ -131,6 +171,56 @@
 		B683D6FF16BD0A770046DC26 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
 		B6949D4316BE515C00320C3F /* EffectsFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsFile.h; sourceTree = "<group>"; };
 		B6949D4416BE515C00320C3F /* EffectsFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsFile.m; sourceTree = "<group>"; };
+		B69B9944171747E8009A8EA7 /* RunsDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RunsDataHelper.h; path = DatbaseFiles/RunsDataHelper.h; sourceTree = "<group>"; };
+		B69B9945171747E8009A8EA7 /* RunsDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RunsDataHelper.m; path = DatbaseFiles/RunsDataHelper.m; sourceTree = "<group>"; };
+		B6EE056D1718CA9A003300AF /* GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientButton.h; sourceTree = "<group>"; };
+		B6EE056E1718CA9A003300AF /* GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientButton.m; sourceTree = "<group>"; };
+		B6EE05701718F023003300AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6EE06371718FD1C003300AF /* ColoredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButton.h; sourceTree = "<group>"; };
+		B6EE06381718FD1C003300AF /* ColoredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButton.m; sourceTree = "<group>"; };
+		B6EE06391718FD1C003300AF /* ColoredButtonBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonBlack.h; sourceTree = "<group>"; };
+		B6EE063A1718FD1C003300AF /* ColoredButtonBlack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonBlack.m; sourceTree = "<group>"; };
+		B6EE063B1718FD1C003300AF /* ColoredButtonBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonBlue.h; sourceTree = "<group>"; };
+		B6EE063C1718FD1C003300AF /* ColoredButtonBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonBlue.m; sourceTree = "<group>"; };
+		B6EE063D1718FD1C003300AF /* ColoredButtonGreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonGreen.h; sourceTree = "<group>"; };
+		B6EE063E1718FD1C003300AF /* ColoredButtonGreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonGreen.m; sourceTree = "<group>"; };
+		B6EE063F1718FD1C003300AF /* ColoredButtonGrey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonGrey.h; sourceTree = "<group>"; };
+		B6EE06401718FD1C003300AF /* ColoredButtonGrey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonGrey.m; sourceTree = "<group>"; };
+		B6EE06411718FD1C003300AF /* ColoredButtonOrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonOrange.h; sourceTree = "<group>"; };
+		B6EE06421718FD1C003300AF /* ColoredButtonOrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonOrange.m; sourceTree = "<group>"; };
+		B6EE06431718FD1C003300AF /* ColoredButtonTan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonTan.h; sourceTree = "<group>"; };
+		B6EE06441718FD1C003300AF /* ColoredButtonTan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonTan.m; sourceTree = "<group>"; };
+		B6EE06451718FD1C003300AF /* ColoredButtonWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonWhite.h; sourceTree = "<group>"; };
+		B6EE06461718FD1C003300AF /* ColoredButtonWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonWhite.m; sourceTree = "<group>"; };
+		B6EE06481718FD1C003300AF /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		B6EE06491718FD1C003300AF /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		B6EE064A1718FD1C003300AF /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE064B1718FD1C003300AF /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE064C1718FD1C003300AF /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		B6EE064D1718FD1C003300AF /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		B6EE064E1718FD1C003300AF /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE064F1718FD1C003300AF /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE06501718FD1C003300AF /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		B6EE06511718FD1C003300AF /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		B6EE06521718FD1C003300AF /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE06531718FD1C003300AF /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE06541718FD1C003300AF /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		B6EE06551718FD1C003300AF /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		B6EE06561718FD1C003300AF /* greyButton@2xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "greyButton@2xpng"; sourceTree = "<group>"; };
+		B6EE06571718FD1C003300AF /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE06581718FD1C003300AF /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE06591718FD1C003300AF /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		B6EE065A1718FD1C003300AF /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		B6EE065B1718FD1C003300AF /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE065C1718FD1C003300AF /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE065D1718FD1C003300AF /* tanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButton.png; sourceTree = "<group>"; };
+		B6EE065E1718FD1C003300AF /* tanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButton@2x.png"; sourceTree = "<group>"; };
+		B6EE065F1718FD1C003300AF /* tanButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE06601718FD1C003300AF /* tanButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		B6EE06611718FD1C003300AF /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		B6EE06621718FD1C003300AF /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
+		B6EE06631718FD1C003300AF /* whiteButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButtonHighlight.png; sourceTree = "<group>"; };
+		B6EE06641718FD1C003300AF /* whiteButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButtonHighlight@2x.png"; sourceTree = "<group>"; };
 		F2195B6516B95F1300EF6309 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		F2195B6716B9604B00EF6309 /* RunCHANGED.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunCHANGED.h; sourceTree = "<group>"; };
 		F2195B6816B9604B00EF6309 /* RunCHANGED.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunCHANGED.m; sourceTree = "<group>"; };
@@ -143,6 +233,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EE05711718F023003300AF /* QuartzCore.framework in Frameworks */,
 				B61D39F21716A116006F8D5D /* CoreData.framework in Frameworks */,
 				F2195B8716BB3C7C00EF6309 /* MapKit.framework in Frameworks */,
 				F2195B8516BB3C7100EF6309 /* CoreLocation.framework in Frameworks */,
@@ -159,7 +250,6 @@
 			isa = PBXGroup;
 			children = (
 				B61D39F61716A8E4006F8D5D /* Database Files */,
-				B61D39F11716A116006F8D5D /* CoreData.framework */,
 				B683D6F716BD08730046DC26 /* Images */,
 				B603A6EF16B89DC7006A5DFA /* FitnessBuddy */,
 				B603A6E816B89DC7006A5DFA /* Frameworks */,
@@ -178,6 +268,8 @@
 		B603A6E816B89DC7006A5DFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6EE05701718F023003300AF /* QuartzCore.framework */,
+				B61D39F11716A116006F8D5D /* CoreData.framework */,
 				F2195B8616BB3C7C00EF6309 /* MapKit.framework */,
 				F2195B8416BB3C7100EF6309 /* CoreLocation.framework */,
 				B603A6E916B89DC7006A5DFA /* UIKit.framework */,
@@ -190,8 +282,8 @@
 		B603A6EF16B89DC7006A5DFA /* FitnessBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				B6949D4316BE515C00320C3F /* EffectsFile.h */,
-				B6949D4416BE515C00320C3F /* EffectsFile.m */,
+				B6EE06351718FD1C003300AF /* iOSButtons */,
+				B6EE056C1718CA61003300AF /* Effects */,
 				B603A6F816B89DC7006A5DFA /* AppDelegate.h */,
 				B603A6F916B89DC7006A5DFA /* AppDelegate.m */,
 				B603A70116B89DC7006A5DFA /* MainStoryboard_iPhone.storyboard */,
@@ -242,6 +334,8 @@
 				B61D39FB1716A93A006F8D5D /* Runs.m */,
 				B61D39F71716A91B006F8D5D /* Run.h */,
 				B61D39F81716A91B006F8D5D /* Run.m */,
+				B69B9944171747E8009A8EA7 /* RunsDataHelper.h */,
+				B69B9945171747E8009A8EA7 /* RunsDataHelper.m */,
 			);
 			name = "Database Files";
 			sourceTree = "<group>";
@@ -277,6 +371,85 @@
 				B6720F0516E07F9500F9566C /* user@2x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		B6EE056C1718CA61003300AF /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				B6949D4316BE515C00320C3F /* EffectsFile.h */,
+				B6949D4416BE515C00320C3F /* EffectsFile.m */,
+				B6EE056D1718CA9A003300AF /* GradientButton.h */,
+				B6EE056E1718CA9A003300AF /* GradientButton.m */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
+		B6EE06351718FD1C003300AF /* iOSButtons */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE06361718FD1C003300AF /* Classes */,
+				B6EE06471718FD1C003300AF /* Resources */,
+			);
+			path = iOSButtons;
+			sourceTree = "<group>";
+		};
+		B6EE06361718FD1C003300AF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE06371718FD1C003300AF /* ColoredButton.h */,
+				B6EE06381718FD1C003300AF /* ColoredButton.m */,
+				B6EE06391718FD1C003300AF /* ColoredButtonBlack.h */,
+				B6EE063A1718FD1C003300AF /* ColoredButtonBlack.m */,
+				B6EE063B1718FD1C003300AF /* ColoredButtonBlue.h */,
+				B6EE063C1718FD1C003300AF /* ColoredButtonBlue.m */,
+				B6EE063D1718FD1C003300AF /* ColoredButtonGreen.h */,
+				B6EE063E1718FD1C003300AF /* ColoredButtonGreen.m */,
+				B6EE063F1718FD1C003300AF /* ColoredButtonGrey.h */,
+				B6EE06401718FD1C003300AF /* ColoredButtonGrey.m */,
+				B6EE06411718FD1C003300AF /* ColoredButtonOrange.h */,
+				B6EE06421718FD1C003300AF /* ColoredButtonOrange.m */,
+				B6EE06431718FD1C003300AF /* ColoredButtonTan.h */,
+				B6EE06441718FD1C003300AF /* ColoredButtonTan.m */,
+				B6EE06451718FD1C003300AF /* ColoredButtonWhite.h */,
+				B6EE06461718FD1C003300AF /* ColoredButtonWhite.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B6EE06471718FD1C003300AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE06481718FD1C003300AF /* blackButton.png */,
+				B6EE06491718FD1C003300AF /* blackButton@2x.png */,
+				B6EE064A1718FD1C003300AF /* blackButtonHighlight.png */,
+				B6EE064B1718FD1C003300AF /* blackButtonHighlight@2x.png */,
+				B6EE064C1718FD1C003300AF /* blueButton.png */,
+				B6EE064D1718FD1C003300AF /* blueButton@2x.png */,
+				B6EE064E1718FD1C003300AF /* blueButtonHighlight.png */,
+				B6EE064F1718FD1C003300AF /* blueButtonHighlight@2x.png */,
+				B6EE06501718FD1C003300AF /* greenButton.png */,
+				B6EE06511718FD1C003300AF /* greenButton@2x.png */,
+				B6EE06521718FD1C003300AF /* greenButtonHighlight.png */,
+				B6EE06531718FD1C003300AF /* greenButtonHighlight@2x.png */,
+				B6EE06541718FD1C003300AF /* greyButton.png */,
+				B6EE06551718FD1C003300AF /* greyButton@2x.png */,
+				B6EE06561718FD1C003300AF /* greyButton@2xpng */,
+				B6EE06571718FD1C003300AF /* greyButtonHighlight.png */,
+				B6EE06581718FD1C003300AF /* greyButtonHighlight@2x.png */,
+				B6EE06591718FD1C003300AF /* orangeButton.png */,
+				B6EE065A1718FD1C003300AF /* orangeButton@2x.png */,
+				B6EE065B1718FD1C003300AF /* orangeButtonHighlight.png */,
+				B6EE065C1718FD1C003300AF /* orangeButtonHighlight@2x.png */,
+				B6EE065D1718FD1C003300AF /* tanButton.png */,
+				B6EE065E1718FD1C003300AF /* tanButton@2x.png */,
+				B6EE065F1718FD1C003300AF /* tanButtonHighlight.png */,
+				B6EE06601718FD1C003300AF /* tanButtonHighlight@2x.png */,
+				B6EE06611718FD1C003300AF /* whiteButton.png */,
+				B6EE06621718FD1C003300AF /* whiteButton@2x.png */,
+				B6EE06631718FD1C003300AF /* whiteButtonHighlight.png */,
+				B6EE06641718FD1C003300AF /* whiteButtonHighlight@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +540,35 @@
 				B6720F1D16E07F9500F9566C /* twinkle_twinkle.png in Resources */,
 				B6720F1E16E07F9500F9566C /* user.png in Resources */,
 				B6720F1F16E07F9500F9566C /* user@2x.png in Resources */,
+				B6EE066D1718FD1C003300AF /* blackButton.png in Resources */,
+				B6EE066E1718FD1C003300AF /* blackButton@2x.png in Resources */,
+				B6EE066F1718FD1C003300AF /* blackButtonHighlight.png in Resources */,
+				B6EE06701718FD1C003300AF /* blackButtonHighlight@2x.png in Resources */,
+				B6EE06711718FD1C003300AF /* blueButton.png in Resources */,
+				B6EE06721718FD1C003300AF /* blueButton@2x.png in Resources */,
+				B6EE06731718FD1C003300AF /* blueButtonHighlight.png in Resources */,
+				B6EE06741718FD1C003300AF /* blueButtonHighlight@2x.png in Resources */,
+				B6EE06751718FD1C003300AF /* greenButton.png in Resources */,
+				B6EE06761718FD1C003300AF /* greenButton@2x.png in Resources */,
+				B6EE06771718FD1C003300AF /* greenButtonHighlight.png in Resources */,
+				B6EE06781718FD1C003300AF /* greenButtonHighlight@2x.png in Resources */,
+				B6EE06791718FD1C003300AF /* greyButton.png in Resources */,
+				B6EE067A1718FD1C003300AF /* greyButton@2x.png in Resources */,
+				B6EE067B1718FD1C003300AF /* greyButton@2xpng in Resources */,
+				B6EE067C1718FD1C003300AF /* greyButtonHighlight.png in Resources */,
+				B6EE067D1718FD1C003300AF /* greyButtonHighlight@2x.png in Resources */,
+				B6EE067E1718FD1C003300AF /* orangeButton.png in Resources */,
+				B6EE067F1718FD1C003300AF /* orangeButton@2x.png in Resources */,
+				B6EE06801718FD1C003300AF /* orangeButtonHighlight.png in Resources */,
+				B6EE06811718FD1C003300AF /* orangeButtonHighlight@2x.png in Resources */,
+				B6EE06821718FD1C003300AF /* tanButton.png in Resources */,
+				B6EE06831718FD1C003300AF /* tanButton@2x.png in Resources */,
+				B6EE06841718FD1C003300AF /* tanButtonHighlight.png in Resources */,
+				B6EE06851718FD1C003300AF /* tanButtonHighlight@2x.png in Resources */,
+				B6EE06861718FD1C003300AF /* whiteButton.png in Resources */,
+				B6EE06871718FD1C003300AF /* whiteButton@2x.png in Resources */,
+				B6EE06881718FD1C003300AF /* whiteButtonHighlight.png in Resources */,
+				B6EE06891718FD1C003300AF /* whiteButtonHighlight@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +592,16 @@
 				B61D39F51716A15B006F8D5D /* FitnessBuddy.xcdatamodeld in Sources */,
 				B61D39F91716A91B006F8D5D /* Run.m in Sources */,
 				B61D39FC1716A93A006F8D5D /* Runs.m in Sources */,
+				B69B9946171747E8009A8EA7 /* RunsDataHelper.m in Sources */,
+				B6EE056F1718CA9A003300AF /* GradientButton.m in Sources */,
+				B6EE06651718FD1C003300AF /* ColoredButton.m in Sources */,
+				B6EE06661718FD1C003300AF /* ColoredButtonBlack.m in Sources */,
+				B6EE06671718FD1C003300AF /* ColoredButtonBlue.m in Sources */,
+				B6EE06681718FD1C003300AF /* ColoredButtonGreen.m in Sources */,
+				B6EE06691718FD1C003300AF /* ColoredButtonGrey.m in Sources */,
+				B6EE066A1718FD1C003300AF /* ColoredButtonOrange.m in Sources */,
+				B6EE066B1718FD1C003300AF /* ColoredButtonTan.m in Sources */,
+				B6EE066C1718FD1C003300AF /* ColoredButtonWhite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
