@@ -11,6 +11,7 @@
 
 @class Runs;
 @class Run;
+@class CalculationViewController;
 
 @interface RunsDataHelper : NSObject
 {
@@ -27,6 +28,10 @@
     
 }
 
+@property (nonatomic, assign) BOOL runInProgres;
+@property (nonatomic, strong) dispatch_queue_t updateTime;
+@property (nonatomic, assign) __block int secondsSinceUserStartedRun;
+
 + (RunsDataHelper *)helper;
 - (NSArray *)allRuns;
 - (NSArray *)runData;
@@ -39,6 +44,9 @@
 
 - (void)loadAllRuns;
 
+
+// Thread operations
+-(void)updateTimer;
 
 
 @end

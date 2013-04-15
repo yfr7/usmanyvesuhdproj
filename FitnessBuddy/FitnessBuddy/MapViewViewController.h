@@ -10,12 +10,18 @@
 #import <CoreLocation/CoreLocation.h>
 #import "CalculationViewController.h"
 
+@class RunsDataHelper;
+
 @interface MapViewViewController : UIViewController <CLLocationManagerDelegate>
 {
     CLLocationManager *locationManager;
     
+    RunsDataHelper *helper;
+    
+    
 }
-@property (strong, nonatomic) IBOutlet UIView *calcualtionView;
+@property (strong, nonatomic) IBOutlet UIView *calculationView;
 
+- (IBAction)startRunning:(id)sender;
 
 @end

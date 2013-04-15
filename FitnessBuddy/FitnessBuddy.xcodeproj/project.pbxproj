@@ -29,6 +29,8 @@
 		B61D39F51716A15B006F8D5D /* FitnessBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B61D39F31716A15B006F8D5D /* FitnessBuddy.xcdatamodeld */; };
 		B61D39F91716A91B006F8D5D /* Run.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D39F81716A91B006F8D5D /* Run.m */; };
 		B61D39FC1716A93A006F8D5D /* Runs.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D39FB1716A93A006F8D5D /* Runs.m */; };
+		B63739ED17190E36008C3ABF /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B63739EB17190E36008C3ABF /* left_arrow@2x.png */; };
+		B63739EE17190E36008C3ABF /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B63739EC17190E36008C3ABF /* left_arrow.png */; };
 		B66244F5170B89710032C430 /* MapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66244F4170B89710032C430 /* MapViewViewController.m */; };
 		B66628BD16D6AEE5009BFE91 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66628BC16D6AEE5009BFE91 /* ThirdViewController.m */; };
 		B6720F0616E07F9500F9566C /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = B6720EEC16E07F9500F9566C /* 11-clock.png */; };
@@ -137,6 +139,8 @@
 		B61D39F81716A91B006F8D5D /* Run.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Run.m; path = DatbaseFiles/Run.m; sourceTree = "<group>"; };
 		B61D39FA1716A93A006F8D5D /* Runs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Runs.h; path = DatbaseFiles/Runs.h; sourceTree = "<group>"; };
 		B61D39FB1716A93A006F8D5D /* Runs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Runs.m; path = DatbaseFiles/Runs.m; sourceTree = "<group>"; };
+		B63739EB17190E36008C3ABF /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left_arrow@2x.png"; path = "Images/left_arrow@2x.png"; sourceTree = "<group>"; };
+		B63739EC17190E36008C3ABF /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left_arrow.png; path = Images/left_arrow.png; sourceTree = "<group>"; };
 		B66244F3170B89710032C430 /* MapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewViewController.h; sourceTree = "<group>"; };
 		B66244F4170B89710032C430 /* MapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewViewController.m; sourceTree = "<group>"; };
 		B66628BB16D6AEE5009BFE91 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
@@ -343,6 +347,8 @@
 		B683D6F716BD08730046DC26 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				B63739EB17190E36008C3ABF /* left_arrow@2x.png */,
+				B63739EC17190E36008C3ABF /* left_arrow.png */,
 				B6720EEC16E07F9500F9566C /* 11-clock.png */,
 				B6720EED16E07F9500F9566C /* 11-clock@2x.png */,
 				B6720EEE16E07F9500F9566C /* black_stripes.png */,
@@ -569,6 +575,8 @@
 				B6EE06871718FD1C003300AF /* whiteButton@2x.png in Resources */,
 				B6EE06881718FD1C003300AF /* whiteButtonHighlight.png in Resources */,
 				B6EE06891718FD1C003300AF /* whiteButtonHighlight@2x.png in Resources */,
+				B63739ED17190E36008C3ABF /* left_arrow@2x.png in Resources */,
+				B63739EE17190E36008C3ABF /* left_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

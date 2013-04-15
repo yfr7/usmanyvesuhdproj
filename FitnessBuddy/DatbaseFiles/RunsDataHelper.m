@@ -13,12 +13,16 @@
 
 @implementation RunsDataHelper
 
+@synthesize runInProgres, secondsSinceUserStartedRun, updateTime;
+
 + (RunsDataHelper *)helper
 {
     static RunsDataHelper *helper = nil;
     if(!helper)
     {
         helper = [[super allocWithZone:nil] init];
+    
+        
     }
     return helper;
     
@@ -33,8 +37,14 @@
 {
     self = [super init];
     if(self) {
-        // Read in Homepwner.xcdatamodeld
+       
+        // Initializing threads
+//        updateTime = dispatch_queue_create("com.usman.updateTime", NULL);
+        
+        
+        // Read in FitnessBuddy.xcdatamodeld
         model = [NSManagedObjectModel mergedModelFromBundles:nil];
+        
         // NSLog(@"model = %@", model);
         
         NSPersistentStoreCoordinator *psc =
@@ -75,6 +85,14 @@
     NSString *documentDirectory = [documentDirectories objectAtIndex:0];
     
     return [documentDirectory stringByAppendingPathComponent:@"store.data"];
+}
+
+-(void)updateTimer
+{
+    if(runInProgres)
+    {
+        secondsSinceUserStartedRun++;
+    }
 }
 
 
